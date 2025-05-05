@@ -1,0 +1,18 @@
+.hero-section {
+    height: 350px;
+    overflow: hidden;
+  }
+  
+  .hero-image {
+    object-fit: cover;
+    height: 100%;
+    filter: brightness(60%);
+  }
+  
+  .post-thumb {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
