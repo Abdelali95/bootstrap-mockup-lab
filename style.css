@@ -16,3 +16,27 @@
     border-radius: 5px;
   }
   
+  body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body.dark-mode .navbar {
+    background-color: #1f1f1f !important;
+  }
+  
+  body.dark-mode .footer,
+  body.dark-mode footer {
+    background-color: #1f1f1f;
+    color: #ddd;
+  }
+  
+  body.dark-mode a {
+    color: #90caf9;
+  }
+  
+  body.dark-mode .post-thumb {
+    border: 1px solid #444;
+  }
+  
